@@ -7,4 +7,5 @@ generates:
       - "typescript"
       - "typescript-operations"
       - "urql-introspection"
+      - "typescript-urql"
 
