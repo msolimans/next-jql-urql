@@ -1,0 +1,13 @@
+query FetchProducts {
+  products (first: 12, channel: "default-channel") {
+    edges{
+      node {
+        id
+        name 
+        thumbnail {
+          url
+        }
+      }
+    }
+	}
+}
